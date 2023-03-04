@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="blackjack.css">
+    </head>
+<body>
+    <div class="cont">
+        <h1>Jack's<img src="https://cdn-icons-png.flaticon.com/512/2316/2316779.png" height="50px" width="40px">Luck</h1>
+        <p id="message-el" >Want To Play A Round ?</p>
+        <p id="cards-el">Cards :</p>
+        <p id="sum-el">Sum: </p>
+        <div>
+        <p id="bet-el">Bet :</p>
+        <button class="betInc" onclick="betIncrease()" >+</button>
+        <button class="betDec" onclick="betDecrease()" >-</button>
+        </div>
+        <button onclick="startGame()">Start Game</button>
+        <br>
+        
+        <button onclick="newCard()">New Card</button>
+        <div class="player">
+          <p id="player-el"></p>
+        </div>
+        <script src="blackjack.js"></script>
+    </div>
+</body>
+</html>
